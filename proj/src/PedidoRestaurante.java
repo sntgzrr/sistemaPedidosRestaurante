@@ -102,7 +102,6 @@ class VentanaPedidos extends JFrame {
         btnExportar.addActionListener(e -> exportarPedidos());
     }
 
-    // Cargar pedidos en tabla
     private void cargarPedidos() {
         modeloTabla.setRowCount(0);
         for (Pedido pedido : listaPedidos) {
